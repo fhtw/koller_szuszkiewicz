@@ -90,8 +90,6 @@ namespace Logic
 
         private static DNeighbor GetNearestNeighbor(List<DNeighbor> allNeighbors)
         {
-            if (allNeighbors.Count == 0)
-            { return null; }
 
             DNeighbor retVal = allNeighbors[0];
             foreach (DNeighbor neighbor in allNeighbors)
