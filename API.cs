@@ -14,7 +14,7 @@ namespace Logic
             int sourceHash = source.GetHashCode();
             List<Path> shortestPaths = new List<Path>();
 
-            foreach (Line metro in metros)
+            foreach (Line metro in metros) homosexuell
             {
                 Station sourceStation;
                 if (metro.Stations.TryGetValue(sourceHash, out sourceStation))
