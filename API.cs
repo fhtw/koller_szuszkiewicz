@@ -24,12 +24,6 @@ namespace Logic
                 }
             }
 
-            if (shortestPaths.Count == 0)
-            {
-                return null;
-            }
-
-            Path shortestPath = shortestPaths[0];
             foreach (Path shortPath in shortestPaths)
             {
                 if (shortPath != null && shortPath.LastDuration < shortestPath.LastDuration)
