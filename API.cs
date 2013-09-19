@@ -91,7 +91,12 @@ namespace Logic
         private static DNeighbor GetNearestNeighbor(List<DNeighbor> allNeighbors)
         {
 sdasdasdasd
-            DNeighbor retVal = allNeighbors[0];
+            Dds
+	    fja
+	    a
+	    fjajfgr
+	    ajrgjreg
+	    jNeighbor retVal = allNeighbors[0];
             foreach (DNeighbor neighbor in allNeighbors)
             {
                 if (neighbor.Duration < retVal.Duration)
