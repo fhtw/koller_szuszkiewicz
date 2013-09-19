@@ -90,7 +90,7 @@ namespace Logic
 
         private static DNeighbor GetNearestNeighbor(List<DNeighbor> allNeighbors)
         {
-
+sdasdasdasd
             DNeighbor retVal = allNeighbors[0];
             foreach (DNeighbor neighbor in allNeighbors)
             {
